@@ -4,6 +4,6 @@ import dagger.Component
 
 @Component
 interface UserRegistrationComponent {
-    fun getUserRegistrationService():UserRegistrationService
-    fun getEmailService(): EmailService
+
+    fun injectorFun(mainActivity: MainActivity) // consumer is passed to injector function
 }
