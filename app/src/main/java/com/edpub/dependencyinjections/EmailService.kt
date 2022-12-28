@@ -1,4 +1,6 @@
 package com.edpub.dependencyinjections
 
-class EmailService {
+import javax.inject.Inject
+
+class EmailService @Inject constructor() {
 }

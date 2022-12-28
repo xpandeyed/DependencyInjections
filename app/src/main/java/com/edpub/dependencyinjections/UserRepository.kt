@@ -1,4 +1,6 @@
 package com.edpub.dependencyinjections
 
-class UserRepository {
+import javax.inject.Inject
+
+class UserRepository @Inject constructor() {
 }
